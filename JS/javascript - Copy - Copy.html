@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Basic Learning</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            border: 2px solid #ddd;
+            padding: 30px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            
+        });
+        jQuery(document).ready(function() {
+         $('h1').css('color', 'red');   
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Javascript Basic Learning</h1>
+    </div>
+
+
+    <script>
+        (function ($){
+            $('h1').css('color', 'red');
+
+            $('.container').css('background-color', 'lightgreen');
+        })(jQuery);
+    </script>
+</body>
+
+</html>
